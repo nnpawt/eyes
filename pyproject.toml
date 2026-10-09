@@ -1,0 +1,22 @@
+[project]
+name = "eyes"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "YOLO26 KB", email = "you@example.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "onnxruntime>=1.31.0",
+    "opencv-python-headless>=5.0.0.93",
+    "tensorrt>=11.4.0.106",
+    "ultralytics>=8.4.174",
+]
+
+[project.scripts]
+eyes = "eyes:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"

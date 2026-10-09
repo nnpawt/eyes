@@ -1,0 +1,10 @@
+# YOLO26 Demo Requirements
+# Install with: uv pip install -r requirements.txt
+
+ultralytics>=8.3.0
+tensorrt>=11.4.0
+onnxruntime>=1.18.0
+
+# Optional dependencies
+opencv-python>=4.8.0
+numpy>=1.24.0
